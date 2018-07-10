@@ -30,4 +30,23 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  static_pages:
+    help:
+      title_help: "Help"
+      detail1: "Get help on the Ruby on Rails Tutorial at the"
+      detail2: "To get help on this sample app, see the"
+    home:
+      sam: Sample App
+      info1: This is the home page for the
+      info2: sample application.
+    about:
+      title_about: About
+      name_book: "Ruby on Rails Tutorial"
+      is_a: is a
+      book: book
+      and: and
+      to: to teach web development with
+    contact:
+        contact: Contact
+        detail: Contact the Ruby on Rails Tutorial about the sample app at the
+    hello: "Hello world"
