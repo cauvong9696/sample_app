@@ -5,7 +5,7 @@ vi:
       detail1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       detail2: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
     home:
-      sam: Ứng dụng mẫu
+      sam: Xin chào đến với Sample App
       info1: Đây là trang chủ cho
       info2: ứng dụng mẫu.
     about:
@@ -17,6 +17,13 @@ vi:
       to: để dạy web develop với
       detail: Đây là sample application cho bài hướng dẫn
     contact:
-        contact: Liên hệ
+        title_contact: Liên hệ
         detail: Liên hệ với Ruby on Rails Tutorial về sample app tại
-    hello: "Xin chào thế giới"
+  layouts:
+    application:
+      home: "Trang chủ"
+      login: "Đăng nhập"
+  users:
+    new:
+      signup: Đăng ký
+      detail: Đây là trang đăng ký cho người dùng mới.
