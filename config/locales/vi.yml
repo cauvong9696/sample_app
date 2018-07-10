@@ -1,0 +1,22 @@
+vi:
+  static_pages:
+    help:
+      title_help: "Giúp đỡ"
+      detail1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      detail2: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
+    home:
+      sam: Ứng dụng mẫu
+      info1: Đây là trang chủ cho
+      info2: ứng dụng mẫu.
+    about:
+      title_about: Về chúng tôi
+      name_book: Hướng dẫn Ruby on Rails
+      is_a: là
+      book: Sách
+      and: và
+      to: để dạy web develop với
+      detail: Đây là sample application cho bài hướng dẫn
+    contact:
+        contact: Liên hệ
+        detail: Liên hệ với Ruby on Rails Tutorial về sample app tại
+    hello: "Xin chào thế giới"
