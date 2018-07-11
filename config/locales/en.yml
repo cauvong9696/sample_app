@@ -5,7 +5,7 @@ en:
       detail1: "Get help on the Ruby on Rails Tutorial at the"
       detail2: "To get help on this sample app, see the"
     home:
-      sam: Sample App
+      sam: Welcom to the Sample App
       info1: This is the home page for the
       info2: sample application.
     about:
@@ -16,6 +16,13 @@ en:
       and: and
       to: to teach web development with
     contact:
-        contact: Contact
+        title_contact: Contact
         detail: Contact the Ruby on Rails Tutorial about the sample app at the
-    hello: "Hello world"
+  layouts:
+    application:
+      home: "Home"
+      login: "Login"
+  users:
+    new:
+      signup: Sign up
+      detail: This will be a signup page for new users.
