@@ -1,4 +1,9 @@
 vi:
+  users:
+    form:
+      name: "Tên"
+      email: "Email"
+      pasword: "Pasword"
   static_pages:
     help:
       title_help: "Giúp đỡ"
@@ -45,16 +50,19 @@ vi:
     new:
       newuser: Bạn chưa có tài khoản?
       invalid: Email hoặc mật khẩu không hợp lệ
+      remember_me: Lưu cho lần đăng nhập sau
   activerecord:
     errors:
       models:
         user:
           attributes:
             name:
-              blank: không được để trống
+              blank: Tên không được để trống
             email:
-              blank: không được để trống
-              invalid: không có hiệu lực
+              blank: Email không được để trống
+              invalid: Email không có hiệu lực
             password:
-              blank: không được để trống
-              too_short: quá ngắn (tối thiểu 6 ký tự)
+              blank: Mật khẩu không được để trống
+              too_short: Mật khẩu quá ngắn (tối thiểu 6 ký tự)
+  errors:
+    format: "%{message}"
