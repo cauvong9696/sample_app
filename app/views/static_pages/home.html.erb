@@ -7,10 +7,10 @@
     <%= link_to "Rails Tutorial help section", "http://www.railstutorial.org" %>
     <%= t ".info2" %>.
   </h2>
-
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <% if logged_in? %>
+    <h1>Chào mừng đến với web của Linh</h1>
+  <% else %>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  <% end %>
 </div>
-  <%= link_to image_tag("rails.png", alt: "Rails logo"),
-            "http://rubyonrails.org/" %>
-  <%= image_tag("kitten.jpg", alt: "kitten") %>
-
+  <%= image_tag("linh.jpg", alt: "kitten") %>
