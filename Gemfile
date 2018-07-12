@@ -25,6 +25,8 @@ group :development do
   gem "web-console", ">= 3.3.0"
 end
 
+gem "bcrypt", "3.1.12"
 gem "bootstrap-sass", "3.3.7"
+gem "config"
 gem "rubocop", "~> 0.54.0", require: false
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
