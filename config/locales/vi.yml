@@ -27,3 +27,9 @@ vi:
     new:
       signup: Đăng ký
       detail: Đây là trang đăng ký cho người dùng mới.
+      warning: Còn lâu mới tìm được người này nhé! Ahihi đồ ngốc!
+      submit: Chị Linh tạo tài khoản cho em với
+  shared:
+    _error_messages:
+      noti: Biểu mẫu chứa
+      error: lỗi
