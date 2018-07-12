@@ -33,6 +33,7 @@ vi:
       setting: "Cài đặt"
       account: "Tài khoản"
   users:
+    error: Lỗi
     new:
       signup: Đăng ký
       detail: Đây là trang đăng ký cho người dùng mới.
@@ -42,6 +43,20 @@ vi:
       email: Email
       password: Mật Khẩu
       confirm: Xác nhận mật khẩu
+    edit:
+      edit_user: Sửa thông tin tài khoản
+      update: Sửa thông tin của bạn
+      save: Chị Linh lưu giúp em ạ! Em cám ơn!
+      edit_avatar: Thay đổi
+      updated: Thông tin của bạn đã được Miss Linh xinh đẹp update
+      updatefa: Bị lỗi rồi cưng à
+      danger: Đã Log in chưa mà đòi đú đởn
+      del: Xóa
+      confirm: Chú có chắc không?
+      delco: Xóa thành công
+      delfa: Xin lỗi cưng, có điều gì đó không đúng ở đây.
+    index:
+      all: Tất cả thành viên yêu quý của chị Linh
   shared:
     _error_messages:
       noti: Biểu mẫu chứa
@@ -64,5 +79,7 @@ vi:
             password:
               blank: Mật khẩu không được để trống
               too_short: Mật khẩu quá ngắn (tối thiểu 6 ký tự)
+            password_confirmation:
+              confirmation: Mật khẩu không khớp rồi cưng
   errors:
     format: "%{message}"
