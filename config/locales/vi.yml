@@ -23,13 +23,38 @@ vi:
     application:
       home: "Trang chủ"
       login: "Đăng nhập"
+      logout: "Đăng xuất"
+      profile: "Cá nhân"
+      setting: "Cài đặt"
+      account: "Tài khoản"
   users:
     new:
       signup: Đăng ký
       detail: Đây là trang đăng ký cho người dùng mới.
       warning: Còn lâu mới tìm được người này nhé! Ahihi đồ ngốc!
       submit: Chị Linh tạo tài khoản cho em với
+      name: Tên
+      email: Email
+      password: Mật Khẩu
+      confirm: Xác nhận mật khẩu
   shared:
     _error_messages:
       noti: Biểu mẫu chứa
       error: lỗi
+  sessions:
+    new:
+      newuser: Bạn chưa có tài khoản?
+      invalid: Email hoặc mật khẩu không hợp lệ
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: không được để trống
+            email:
+              blank: không được để trống
+              invalid: không có hiệu lực
+            password:
+              blank: không được để trống
+              too_short: quá ngắn (tối thiểu 6 ký tự)
