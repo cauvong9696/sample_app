@@ -1,11 +1,16 @@
 en:
+  users:
+    form:
+      name: "Name"
+      email: "Email"
+      pasword: "Pasword"
   static_pages:
     help:
       title_help: "Help"
       detail1: "Get help on the Ruby on Rails Tutorial at the"
       detail2: "To get help on this sample app, see the"
     home:
-      sam: Welcom to the Sample App
+      sam: Welcome to the Sample App
       info1: This is the home page for the
       info2: sample application.
     about:
@@ -31,7 +36,7 @@ en:
       signup: Sign up
       detail: This will be a signup page for new users.
       warning: Oh no! Can't find! ばか!
-      submit: Create my account
+      submit: Create my account! Please!
       name: Name
       email: Email
       password: Password
@@ -44,16 +49,19 @@ en:
     new:
       newuser: New user?
       invalid: Invalid email/password combination
+      remember_me: Remember me on this computer
   activerecord:
     errors:
       models:
         user:
           attributes:
             name:
-              blank: can't be blank
+              blank: Name can't be blank
             email:
-              blank: can't be blank
-              invalid: is invalid
+              blank: Email can't be blank
+              invalid: Email is invalid
             password:
-              blank: can't be blank
-              too_short: is too short (minimum is 6 characters)
+              blank: Password can't be blank
+              too_short: Password is too short (minimum is 6 characters)
+  errors:
+    format: "%{message}"
