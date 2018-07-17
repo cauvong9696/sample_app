@@ -32,6 +32,7 @@ en:
       setting: "Settings"
       account: "Account"
   users:
+    error: Error
     new:
       signup: Sign up
       detail: This will be a signup page for new users.
@@ -41,6 +42,20 @@ en:
       email: Email
       password: Password
       confirm: Confirm Password
+    edit:
+      edit_user: Edit user
+      update: Update your profile
+      save: Save chenges! Please!
+      edit_avatar: Change
+      updated: Profile updated
+      updatefa: No! Can't update
+      danger: Login! Go!
+      del: Delete
+      confirm: You sure?
+      delco: User deleted
+      delfa: Oh no! Can't delete!
+    index:
+      all: All users
   shared:
     _error_messages:
       noti: The form contains
@@ -63,5 +78,7 @@ en:
             password:
               blank: Password can't be blank
               too_short: Password is too short (minimum is 6 characters)
+            password_confirmation:
+              confirmation: Password doesn't match
   errors:
     format: "%{message}"
