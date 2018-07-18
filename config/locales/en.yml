@@ -1,4 +1,5 @@
 en:
+  subject: Account activation
   users:
     form:
       name: "Name"
@@ -75,6 +76,7 @@ en:
             email:
               blank: Email can't be blank
               invalid: Email is invalid
+              taken: Email has already been taken
             password:
               blank: Password can't be blank
               too_short: Password is too short (minimum is 6 characters)
@@ -82,3 +84,12 @@ en:
               confirmation: Password doesn't match
   errors:
     format: "%{message}"
+  user_mailer:
+    account_activation:
+      hi: Hi
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
+      require: Please check your email to activate your account.
+      active: Account activated!
+      active_error: Invalid activation link
+      message: "Account not activated. Check your email for the activation link."
+      activate: Activate

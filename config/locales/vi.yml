@@ -1,4 +1,5 @@
 vi:
+  subject: Kích hoạt tài khoản
   users:
     form:
       name: "Tên"
@@ -76,6 +77,7 @@ vi:
             email:
               blank: Email không được để trống
               invalid: Email không có hiệu lực
+              taken: Email đã được sử dụng
             password:
               blank: Mật khẩu không được để trống
               too_short: Mật khẩu quá ngắn (tối thiểu 6 ký tự)
@@ -83,3 +85,12 @@ vi:
               confirmation: Mật khẩu không khớp rồi cưng
   errors:
     format: "%{message}"
+  user_mailer:
+    account_activation:
+      hi: Xin chào
+      welcome: Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn
+      require: Hãy kiểm tra email của cưng để kích hoạt tài khoản.
+      active: tài khoản cưng đã được kích hoạt rồi nhé! Yêu thương nạ!
+      active_error: Sai link kích hoạt rồi cưng à ahihi
+      message: "Tài khoản cưng chưa được kích hoạt đâu. Kiểm tra lại email đi cưng."
+      activate: "Kích hoạt"

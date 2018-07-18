@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @users = User.page(params[:page]).per Settings.paginates_per
   end
 
-  def show;  end
+  def show
+    redirect_to(root_url) unless @user
+  end
 
   def new
     @user = User.new
@@ -17,9 +19,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t("static_pages.home.sam")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "user_mailer.account_activation.require"
+      redirect_to root_url
     else
       render :new
     end
