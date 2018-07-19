@@ -3,3 +3,4 @@ email_max: 255
 password_min: 6
 size_img: 80
 paginates_per: 10
+hours_max: 2

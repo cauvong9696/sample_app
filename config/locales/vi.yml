@@ -1,5 +1,9 @@
 vi:
-  subject: Kích hoạt tài khoản
+  reset_pass: Đặt lại mật khẩu
+  not_empty: không được để trống
+  reset_ed: Mật khẩu đã được thay đổi
+  expired: Hết thời hạn đặt lại mật khẩu
+  forgot_password: Quên mật khẩu
   users:
     form:
       name: "Tên"
@@ -94,3 +98,16 @@ vi:
       active_error: Sai link kích hoạt rồi cưng à ahihi
       message: "Tài khoản cưng chưa được kích hoạt đâu. Kiểm tra lại email đi cưng."
       activate: "Kích hoạt"
+      subject: Kích hoạt tài khoản
+    password_reset:
+      to_reset: "Để cài đặt lại mật khẩu thì click vào link sau:"
+      detail: "Libk sẽ được gửi tới trong vòng 2 giờ."
+      detail1: "Nếu bận không thực hiện hành động này hãy bỏ qua email và mật khẩu của bạn vẫn sẽ như cũ."
+  password_resets:
+    new:
+      forgot_pass: Quên mật khẩu rồi ư?
+      guide: Kiểm tra email đi cưng
+      not_found: Hem tìm thấy địa chỉ email
+    edit:
+      submit: Thay đổi mật khẩu
+      reset_pass: Đặt lại mật khẩu
